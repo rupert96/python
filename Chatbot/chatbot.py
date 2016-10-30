@@ -7,7 +7,7 @@ nonStopWords = []
 nRespond = ["nah", "no", "bad", "sad", "unhappy", "upset", "angry"]
 pRespond = ["yeah", "yes", "good", "thanks", "great", "happy"]
 
-#response = raw_input("Yo.")
+response = raw_input("Yo.")
 response = raw_input("What name do you go by?")
 response = raw_input("Cool, alright " + response + "?")
 userInputList = response.split(" ")
@@ -62,7 +62,7 @@ for everyFilteredWord in nonStopWords:
                             if (everyFilteredWord in pRespond):
                                 response = raw_input ("Cheers bro. You know smoking is bad for ya but i do it anyway...")
                             elif (everyFilteredWord in nRespond):
-                                response = raw_input ("No worries bro. Smoking kills anyway, did you know")
+                                response = raw_input ("No worries bro. Smoking kills anyway. Catch you later m8er")
                             elif (everyFilteredWord not in nRespond or pRespond):
                                 print ("Sorry mate the dance floor is calling out for me. Better shoot, cya later.") 
        
